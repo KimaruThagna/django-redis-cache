@@ -6,3 +6,4 @@ Learning to use redis with Django to cache querysets to increase performance. Pa
 3. Redis
 4. Docker
 5. [Loadtest](https://www.npmjs.com/package/loadtest)- Test api performance
+6. Django debug toolbar

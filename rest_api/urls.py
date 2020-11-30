@@ -18,6 +18,6 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('', view_books, name='before_cache'),
+    path('', products, name='before_cache'),
 
 ]
