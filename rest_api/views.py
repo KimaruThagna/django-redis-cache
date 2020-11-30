@@ -19,7 +19,7 @@ def products(request):
 
 
 @api_view(['GET'])
-def view_cached_books(request):
+def cached_produts(request):
     if 'product' in cache:
         # get results from cache
         products = cache.get('product')

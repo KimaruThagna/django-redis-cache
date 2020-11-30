@@ -19,5 +19,6 @@ from .views import *
 
 urlpatterns = [
     path('', products, name='before_cache'),
+    path('cached/', cached_produts, name='after_cache'),
 
 ]
